@@ -16,7 +16,7 @@ namespace CanonDemoTests
         }
 
         [TestMethod]
-        public void CheckUpperLimit()
+        public void CheckLowerLimit()
         {
             uint expected = 0;
             uint actual = OctalUtility.OctalToUInt("0");
@@ -25,7 +25,7 @@ namespace CanonDemoTests
         }
 
         [TestMethod]
-        public void CheckLowerLimit()
+        public void CheckUpperLimit()
         {
             uint expected = 4294967295;
             uint actual = OctalUtility.OctalToUInt("37777777777");
