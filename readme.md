@@ -5,7 +5,8 @@ I chose to loop through the characters from right to left. For each digit, I mul
 
 ## Testing
 I wrote test cases that represent a standard use case, the smallest allowed value, the largest allowed value, a parse error,
-and an overflow error. 
+and an overflow error. I included a .sln - double click that to easily open these projects in Visual Studio. 
+Test cases can be run by running ```dotnet test``` in Powershell from the ```CanonDemo``` directory. 
 
 ## Error Handling
 I used exceptions to implement error handling. The function throws and exception if the input is not a valid octal string. 
